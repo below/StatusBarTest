@@ -12,6 +12,7 @@
 		CBCD45AA1D23F30900A042AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD45A81D23F30900A042AE /* Main.storyboard */; };
 		CBCD45AC1D23F30900A042AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCD45AB1D23F30900A042AE /* Assets.xcassets */; };
 		CBCD45AF1D23F30900A042AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD45AD1D23F30900A042AE /* LaunchScreen.storyboard */; };
+		CBCD45B71D23FF0600A042AE /* DTSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD45B61D23FF0600A042AE /* DTSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CBCD45AB1D23F30900A042AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBCD45AE1D23F30900A042AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBCD45B01D23F30900A042AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCD45B61D23FF0600A042AE /* DTSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CBCD45A41D23F30900A042AE /* AppDelegate.swift */,
+				CBCD45B61D23FF0600A042AE /* DTSplitViewController.swift */,
 				CBCD45A61D23F30900A042AE /* ViewController.swift */,
 				CBCD45A81D23F30900A042AE /* Main.storyboard */,
 				CBCD45AB1D23F30900A042AE /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBCD45A71D23F30900A042AE /* ViewController.swift in Sources */,
+				CBCD45B71D23FF0600A042AE /* DTSplitViewController.swift in Sources */,
 				CBCD45A51D23F30900A042AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				CBCD45B51D23F30900A042AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
